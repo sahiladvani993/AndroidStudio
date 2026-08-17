@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CDDC39"
+        android:text=" Thiss is the Endddddd"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter User Name "
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="333dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Password"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="368dp"
+        android:layout_height="760dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="399dp"
+        tools:text="“The only substitute for hard work is hard life”-Bishop David Oyedepo  Talent is overrated! In the next few decades the idea of talent will become a myth, as the disruption caused by technology now affords people to learn even what they were never talented for. I have seen someone who is playing the piano and guitar very well with lessons gotten from YouTube. With the advent of technology and social media, you can learn anything, anywhere, and at any time. You don’t need to wait to be talented to do some things. If you can put in the required hours, dedication, and tenacity, I bet you can learn to do virtually anything! This piece is not to underrate talent and gifts but actually to call our solemn attention to the negligence of grit in the face of gifts. Your gift is useless without grit, hard work, tenacity, and perseverance.  In my years of mentoring and coaching, I have observed that it is the people that have so much grit and not gift that reach the finishing line! Eric Thomas said, “When you want to succeed as bad as you…" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
